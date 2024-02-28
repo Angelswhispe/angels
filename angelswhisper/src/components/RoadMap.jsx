@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 import Home from '../assets/Home.png';
 
 
 function RoadMap() {
   return (
     <>
-      <div>
+      <div className='-mt-[110%] lg:mt-0 text-xs ml-6 text-white  relative top-0'>
         <h1>ROAD MAP</h1>
         <div>
           <div>
@@ -15,15 +15,15 @@ function RoadMap() {
             </li>
             <br />
             <p>2024 Q1</p>
-            <ul>
+            
               <li>Release of OG NFTs</li>
               <li>Release of Error Angel (EAGL) Tokens</li>
               <li>Completion and launch of the game demo</li>
               <li>Fundraising for the short drama production.</li>
-            </ul>
+            
             <br />
             <p>2024 Q2</p>
-            <ul>
+            
               <li>Completion and launch of the game phase 1.</li>
               <li>
                 Completing cross-chain bridge will allow more players to
@@ -32,10 +32,10 @@ function RoadMap() {
               <li>Launching the Web2 version of the game.</li>
               <li>Conducting an airdrop and launch of item NFTs.</li>
               <li>Launching Angel's Whisper App</li>
-            </ul>
+            
             <br />
             <p>2024 Q4</p>
-            <ul>
+            
               <li>Launch of Phase 2.</li>
               <li>Profit distribution to community of Phase 1.</li>
               <li>
@@ -47,10 +47,10 @@ function RoadMap() {
                 Initiation of the AI-driven Web3 interactive game incubator
                 program, and select teams for Winter 2024 Batch.
               </li>
-            </ul>
+            
             <br />
             <p>2024 Q4</p>
-            <ul>
+            
               <li> Launch of Phase 3.</li>
               <li>Profit distribution to community of Phase 2.</li>
               <li>
@@ -62,10 +62,10 @@ function RoadMap() {
                 NFTs, with 30% of the revenue earned by Angel's Whisper
                 distributed to all OG and EAGL Holders
               </li>
-            </ul>
+            
           </div>
           <div>
-            <img src={Home}/>
+            {/* <img src={Home}/> */}
           </div>
         </div>
       </div>

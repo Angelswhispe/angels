@@ -10,22 +10,18 @@ import backgroundImage2 from "../assets/backgroundImage_02.jpg";
 import BgImgBottom from "../assets/bgImg.jpg";
 import ImageSlider from "./ImageSlider";
 import ActiveSlider from "./ImageSlider";
-import "./ImageSlider.css"; // Import the CSS file for styling
+import RoadMap from "./RoadMap";
+import videoFile from "../assets/introaw.mp4";
+import "./LandingRes.css"
+
+import StartTalk from "./StartTalk";
 
 function LandingPage() {
   return (
     <>
-      <div className="w-[100%]">
+      <div className="w-[100%] lg:h-screen">
         <div
-          className="h-[48pc] mt-0"
-          style={{
-            backgroundImage: `url(${backgroundImage1})`,
-            // backgroundImage: `url(${require("../assets/backgroundImage_01.jpg").default})`,
-            backgroundSize: "contain",
-            backgroundSize: "100% 30%", // 120% width, auto height
-            // backgroundPosition: "",
-            backgroundRepeat: "no-repeat",
-          }}
+          className="lg:relative bg h-[48pc] lg:h-[100vh] mt-0"
         >
           <MovingImage />
           <NavBar />
@@ -37,29 +33,32 @@ function LandingPage() {
         </div>
 
         <div
-          className="h-[50pc] -mt-[144%]"
-          style={{
-            backgroundImage: `url(${backgroundImage2})`,
-            backgroundSize: "contain",
-            backgroundSize: "100% 50%", // 120% width, auto height
-            // backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
+          className="  bg2 h-[48pc] lg:h-[181.5vh] lg:mt-0 -mt-[144%]"
+         
         >
           <About />
           <TalkToYourAngel />
-          <div className="h-2 z-30 bg-yellow-300"></div>
+          {/* <StartTalk /> */}
+
+          <div>
+          <div className="h-2 z-30 relative bg-yellow-300"></div>
+          </div>
           <div
-            className="h-[100pc] -mt-[70%]"
+            className=" bg3 lg:h-[50] h-[81pc] lg:mt-[0%] mt-[0%]"
             // className="h-screen relative -mt-[61.6%] bg-gradient-to-r from-blue-500 to-green-500"
-            style={{
-              backgroundImage: `url(${BgImgBottom})`,
-              // backgroundSize: "contain, contain",
-              backgroundPosition: "left, right",
-              backgroundRepeat: "no-repeat, no-repeat",
-            }}
+           
           >
             <ActiveSlider />
+            <RoadMap />
+            {/* <br/> */}
+            <hr className="mt-14 lg:mt-40" />
+            <video controls className="mt-16 p-5 ">
+              <source src={videoFile} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p className="h-10 mt-3 text-center text-white">
+              &copy; 2024 by Emmy
+            </p>
           </div>
         </div>
       </div>

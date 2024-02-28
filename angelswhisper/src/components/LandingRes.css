@@ -1,0 +1,107 @@
+body {
+    font-family: "Rubik Microbe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.bg{
+
+    background-image: url(../assets/backgroundImage_01.jpg);
+    
+    background-size: contain;
+    background-size: 100% 30%; 
+    
+    background-repeat: no-repeat;
+}
+.bg2 {
+  
+      background-image: url(../assets/backgroundImage_02.jpg);
+      background-size: contain;
+      background-size: 100% 70%;
+      
+      background-repeat: no-repeat;
+      
+    
+}
+.bgL{
+
+    background-image: url(../assets/backgroundImage_01.jpg);
+    
+    background-size: contain;
+    background-size: 100% 270px; 
+    
+    background-repeat: no-repeat;
+}
+.bg2L {
+  
+      background-image: url(../assets/backgroundImage_02.jpg);
+      background-size: contain;
+      background-size: 100% 260px;
+      
+      background-repeat: no-repeat;
+      
+    
+}
+.bg3{
+
+    background-image: url(../assets/bgImg.jpg);
+    background-size: auto 110pc;
+    background-position: left right;
+    background-repeat: no-repeat no-repeat;
+}
+@media (min-width: 1024px) {
+    .bg{
+
+        background-image: url(../assets/backgroundImage_01.jpg);
+        
+        background-size: contain;
+        background-size: 100% 110%; 
+        
+        background-repeat: no-repeat;
+    }
+    .bg2 {
+      
+          background-image: url(../assets/backgroundImage_02.jpg);
+          background-size: contain;
+          background-size: 100% 95%;
+          background-position: left right;
+
+          background-repeat: no-repeat;
+          
+        
+    }
+    .bg3{
+
+        background-image: url(../assets/bgImg.jpg);
+        background-size: auto 160pc;
+            background-position: left, right;
+            background-repeat: no-repeat, no-repeat;
+    }
+
+    .bgL{
+
+        background-image: url(../assets/backgroundImage_01.jpg);
+        
+        background-size: contain;
+        background-size: 100% 670px; 
+        
+        background-repeat: no-repeat;
+    }
+    .bg2L {
+        display: none;
+          background-image: url(../assets/backgroundImage_02.jpg);
+          background-size: contain;
+          background-size: 100% 310px;
+          
+          background-repeat: no-repeat;
+          
+        
+    }
+
+  
+  }
+   
+  
+
+  

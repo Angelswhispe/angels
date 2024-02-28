@@ -28,8 +28,8 @@ const ActiveSlider = () => {
   
   return (
     <>
-      <div className="relative w-[100%] overflow-hidden">
-        <div className="flex items-center justify-center relative top-[-2%] -ml-5 w-[120%] flex-col h-[900px]">
+      <div className="relative w-[100%] -top-[16.2%] overflow-hidden">
+        <div className="flex items-center justify-center  -ml-5 w-[120%] flex-col h-[900px]">
           <Swiper
             spaceBetween={50}
             slidesPerView={3}
@@ -52,16 +52,16 @@ const ActiveSlider = () => {
             className="w-[173%] pl-7 -mt-9 lg:max-w-[80%]"
           >
               <FontAwesomeIcon
-                className="absolute font-light left-14 bg-white top-28 w-6 h-6 px-2 py-2 rounded-3xl z-50"
+                className="absolute font-light left-14 bg-white top-40 w-6 h-6 px-2 py-2 rounded-3xl z-50"
                 icon={faChevronLeft}
               />
               <FontAwesomeIcon
-                className="absolute font-light left-80 bg-white top-28 w-6 h-6 px-2 py-2 rounded-3xl z-50"
+                className="absolute font-light left-80 bg-white top-40 w-6 h-6 px-2 py-2 rounded-3xl z-50"
                 icon={faChevronRight}
               />
             <div className="w-[80%] ">
               {/* {ServiceData.map((item) => ( */}
-              <SwiperSlide className="flex w-[100%] -mt-12 overflow-y-hidden overflow-x-scroll">
+              <SwiperSlide className="flex w-[100%] -mt-1 overflow-y-hidden overflow-x-scroll">
                 <div className="flex gap-6 mb-[-28%]  relative py-10 h-[100vh] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div
                     className="relative w-60"

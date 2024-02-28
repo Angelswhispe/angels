@@ -2,13 +2,15 @@
 
 import './App.css'
 import LandingPage from './components/LandingPage'
+import LoginPage from './components/LoginPage'
 
 function App() {
   
 
   return (
     <>
-      <LandingPage/>
+      <LoginPage/>
+      {/* <LandingPage/> */}
     </>
   )
 }

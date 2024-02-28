@@ -3,14 +3,14 @@
 function HeroText() {
   return (
     <>
-        <div className="z-40 text-green-500">
-            <h2>ANGEL'S WHISPER</h2>
-            <div className="flex">
+        <div className="z-40 mt-24 text-center text-orange-200">
+            <h2 className="text-3xl lg:text-8xl">ANGEL'S WHISPER</h2>
+             <div className=" flex justify-center lg:text-4xl lg:space-x-28 space-x-5 font-semibold text-xl">
                 <p>言</p>
                 <p>葉</p>
                 <p>の</p>
-                <p>天</p>
-                <p>使</p>
+                <p className="bg-gradient-to-r from-text-orange-200 to-white">天</p>
+                <p className="text-white">使</p>
             </div>
       </div>
     </>
