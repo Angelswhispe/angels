@@ -5,10 +5,10 @@ import Home from '../assets/Home.png';
 function RoadMap() {
   return (
     <>
-      <div className='-mt-[110%] lg:mt-0 text-xs ml-6 text-white  relative top-0'>
-        <h1>ROAD MAP</h1>
+      <div className='-mt-[140%] lg:mt-0 text-xs ml-6 text-white  relative top-0'>
+        <h1 className='text-2xl font-bold text-orange-300'>ROAD MAP</h1>
         <div>
-          <div>
+          <div className='font-sans'>
             <p>2023 Q4</p>
             <li>
               Creation of the game script and character original drawings.

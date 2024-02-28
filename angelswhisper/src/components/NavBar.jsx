@@ -3,12 +3,12 @@
 function NavBar() {
   return (
    <>
-     <nav className="absolute m-8">
-        <ul className="text-white flex space-x-10">
+     <nav className="absolute m-5 ">
+        <ul className="text-orange-200 ml-2 mt-3 flex space-x-7">
             <li>HOME</li>
             <li>PLAY</li>
             <li>LIGHTPAPER</li>
-            <h2>NFT</h2>
+            <h2 className="bg-gradient-to-r from-purple-500 to-red-500 text-transparent bg-clip-text text-3xl relative -left-4 font-bold">NFT</h2>
         </ul>
      </nav>
    </>

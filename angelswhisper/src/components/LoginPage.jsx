@@ -10,7 +10,7 @@ function LoginPage() {
         <div className="bgL lg:h-[100%] h-[309px] overflow-hidden">
           <MovingImage />
           <LoginBtn />
-         <div className="lg:pt-28 pt-2">
+         <div className="lg:pt-28 pt-28">
          <HeroText />
          </div>
         </div>

@@ -9,18 +9,18 @@ function TalkToYourAngel() {
   return (
     <>
       <div
-        className="w-[100%] mt-24  justify-center"
+        className="w-[100%] bg-black mt-0  justify-center"
         
       >
         <div className=" w-[100%]">
-          <h1 className="text-center text-white">TALK TO YOUR ANGEL</h1>
+          <h1 className="text-center text-2xl text-orange-100">TALK TO YOUR ANGEL</h1>
 
-          <div className="flex relative text-white left-7 w-60 space-x-[11%]">
-            <p>BUNNY</p>
-            <p>ARISA</p>
-            <p>REINA</p>
-            <p>MEI</p>
-            <p>ALICE</p>
+          <div className="flex relative text-orange-200 left-5 w-60 space-x-[11%]">
+            <p className="relative left-0">BUNNY</p>
+            <p className="relative -left-3">ARISA</p>
+            <p className="relative -left-4">REINA</p>
+            <p className="relative -left-4">MEI</p>
+            <p className="relative -left-6">ALICE</p>
           </div>
           <div className="z-20 relative top- overflow-hidden">
             <div className="flex relative w-80 left-[7%] lg:left-[38%]  justify-center">

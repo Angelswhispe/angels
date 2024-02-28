@@ -28,7 +28,7 @@ const ActiveSlider = () => {
   
   return (
     <>
-      <div className="relative w-[100%] -top-[16.2%] overflow-hidden">
+      <div className="relative w-[100%] -top-[22.2%] overflow-hidden">
         <div className="flex items-center justify-center  -ml-5 w-[120%] flex-col h-[900px]">
           <Swiper
             spaceBetween={50}
