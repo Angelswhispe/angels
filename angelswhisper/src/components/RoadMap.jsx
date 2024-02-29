@@ -40,7 +40,7 @@ function RoadMap() {
               </li>
               <li>Launching the Web2 version of the game.</li>
               <li>Conducting an airdrop and launch of item NFTs.</li>
-              <li>Launching Angel's Whisper App</li>
+              <li>Launching Angel`&apos;`,s Whisper App</li>
             </div>
             <br />
             <p className="lg:-mt-">2024 Q4</p>
@@ -49,8 +49,8 @@ function RoadMap() {
             <li>Profit distribution to community of Phase 1.</li>
             <li>
               Introducing the “Build Angel” feature, which allows players to
-              turn Angels they've trained in the game and app into NFTs and to
-              import others' NFTs.
+              turn Angels they`&apos;`,ve trained in the game and app into NFTs and to
+              import others`&apos;`, NFTs.
             </li>
             <li>
               Initiation of the AI-driven Web3 interactive game incubator
@@ -68,7 +68,7 @@ function RoadMap() {
             </li>
             <li>
               Assisting teams within the incubator to promote and launch their
-              NFTs, with 30% of the revenue earned by Angel's Whisper
+              NFTs, with 30% of the revenue earned by Angel`&apos;`,s Whisper
               distributed to all OG and EAGL Holders
             </li>
           </div>

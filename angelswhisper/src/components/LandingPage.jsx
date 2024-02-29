@@ -4,17 +4,17 @@ import NavBar from "./NavBar";
 import HeroText from "./HeroText";
 import About from "./About";
 import TalkToYourAngel from "./TalkToYourAngel";
-import backgroundImg from "./BackgroundImg";
-import backgroundImage1 from "../assets/backgroundImage_01.jpg";
-import backgroundImage2 from "../assets/backgroundImage_02.jpg";
-import BgImgBottom from "../assets/bgImg.jpg";
-import ImageSlider from "./ImageSlider";
+// import backgroundImg from "./BackgroundImg";
+// import backgroundImage1 from "../assets/backgroundImage_01.jpg";
+// import backgroundImage2 from "../assets/backgroundImage_02.jpg";
+// import BgImgBottom from "../assets/bgImg.jpg";
+// import ImageSlider from "./ImageSlider";
 import ActiveSlider from "./ImageSlider";
 import RoadMap from "./RoadMap";
 import videoFile from "../assets/introaw.mp4";
 import "./LandingRes.css";
 
-import StartTalk from "./StartTalk";
+// import StartTalk from "./StartTalk";
 
 function LandingPage() {
   return (

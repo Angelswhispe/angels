@@ -1,6 +1,7 @@
 import BackgroundImage1 from "../assets/backgroundImage_01.jpg";
 import BackgroundImage2 from "../assets/backgroundImage_02.jpg";
 
+
 function BackgroundImg() {
   return (
     <div className="z-0">

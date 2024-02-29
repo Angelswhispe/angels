@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+// import { useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -7,16 +7,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "./LandingRes.css";
-import { FreeMode, Pagination } from "swiper/modules";
+// import { FreeMode, Pagination } from "swiper/modules";
 
-
+// import { RxArrowTopRight } from "react-icons/rx";
 // import { ServiceData } from "../constants";
-import SpaceCity1 from "../assets/girl.png";
-import SpaceCity5 from "../assets/girl1.jpg";
-import SpaceCity6 from "../assets/girl3.jpg";
-import SpaceCity7 from "../assets/girl4.jpg";
-import SpaceCity8 from "../assets/girl5.jpg";
-import SpaceCity9 from "../assets/girl5.jpg";
+// import SpaceCity1 from "../assets/girl.png";
+// import SpaceCity5 from "../assets/girl1.jpg";
+// import SpaceCity6 from "../assets/girl3.jpg";
+// import SpaceCity7 from "../assets/girl4.jpg";
+// import SpaceCity8 from "../assets/girl5.jpg";
+// import SpaceCity9 from "../assets/girl5.jpg";
 
 import {
   faChevronRight,
