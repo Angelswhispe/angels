@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <div className="lg:h-80 h-40 lg:mb-60">
-        <div className="p-7 bg-[#000000] top-20 relative opacity-70  w-[88%] lg:w-[55%] lg:ml-[23.4%] ml-6 text-white lg:text-lg  lg:h-[140%] h-[155%] text-[65%] font-bold">
+        <div className="p-7 bg-[#000000] lg:top-20 relative opacity-70  w-[88%] lg:w-[55%] lg:ml-[23.4%] ml-6 text-white lg:text-lg  lg:h-[140%] h-[155%] text-[65%] font-bold">
           <h1 className=" text-center lg:text-3xl text-sm text-orange-100 -top-2 relative lg:p-5">WHAT'S ANGEL'S WHISPER?</h1>
           <p className="font-bold lg:w-[80%] font-sans lg:left-16 relative">
             "ANGEL'S WHISPER" is an upcoming AI-driven Web3 romance development
