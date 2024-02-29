@@ -9,7 +9,7 @@ import "swiper/css/free-mode";
 import "./LandingRes.css";
 import { FreeMode, Pagination } from "swiper/modules";
 
-import { RxArrowTopRight } from "react-icons/rx";
+
 // import { ServiceData } from "../constants";
 import SpaceCity1 from "../assets/girl.png";
 import SpaceCity5 from "../assets/girl1.jpg";
