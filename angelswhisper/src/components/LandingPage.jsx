@@ -44,18 +44,18 @@ function LandingPage() {
             <div className="h-2 z-30 relative bg-yellow-300"></div>
           </div>
           <div
-            className=" bg3 lg:h-[50pc] h-[85pc] lg:mt-[0%] mt-[0%]"
+            className=" bg3 lg:h-[110pc] h-[85pc] lg:mt-[0%] mt-[0%]"
             // className="h-screen relative -mt-[61.6%] bg-gradient-to-r from-blue-500 to-green-500"
           >
             <ActiveSlider />
             <RoadMap />
             {/* <br/> */}
-            <hr className="mt-14 lg:mt-40" />
-            <video controls className="mt-16 p-5 ">
+            <hr className="mt-14 lg:mt-20 lg:border-0 shadow-lg" />
+            <video controls className="mt-16 p-5 lg:ml-[23%] ">
               <source src={videoFile} type="video/mp4" />
               {/* Your browser does not support the video tag. */}
             </video>
-            <p className="font-sans h-10 mt-3 text-center text-white">
+            <p className="font-sans h-10 mt-3 lg:mt-9 text-center text-white">
               &copy; 2024 by Emmy
             </p>
           </div>
