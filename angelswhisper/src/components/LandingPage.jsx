@@ -26,17 +26,17 @@ function LandingPage() {
           {/* <BackgroundImg>
             
         </BackgroundImg> */}
-          <div className="pt-[23%]">
+          <div className="lg:pt-[29%] pt-[23%]">
             <HeroText />
           </div>
         </div>
 
         <div className="  bg2 h-[48pc] lg:h-[181.5vh] lg:mt-0 -mt-[144%]">
           <About />
-          <video controls className="mt-24 p-0 ">
-              <source src={videoFile} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <video controls className="mt-24 p-0 lg:ml-[23.5%] lg:w-[55%] ">
+            <source src={videoFile} type="video/mp4" />
+            {/* Your browser does not support the video tag. */}
+          </video>
           <TalkToYourAngel />
           {/* <StartTalk /> */}
 
@@ -44,7 +44,7 @@ function LandingPage() {
             <div className="h-2 z-30 relative bg-yellow-300"></div>
           </div>
           <div
-            className=" bg3 lg:h-[50] h-[85pc] lg:mt-[0%] mt-[0%]"
+            className=" bg3 lg:h-[50pc] h-[85pc] lg:mt-[0%] mt-[0%]"
             // className="h-screen relative -mt-[61.6%] bg-gradient-to-r from-blue-500 to-green-500"
           >
             <ActiveSlider />
@@ -53,7 +53,7 @@ function LandingPage() {
             <hr className="mt-14 lg:mt-40" />
             <video controls className="mt-16 p-5 ">
               <source src={videoFile} type="video/mp4" />
-              Your browser does not support the video tag.
+              {/* Your browser does not support the video tag. */}
             </video>
             <p className="font-sans h-10 mt-3 text-center text-white">
               &copy; 2024 by Emmy

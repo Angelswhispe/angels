@@ -50,13 +50,54 @@ body {
     background-position: left right;
     background-repeat: no-repeat no-repeat;
 }
+.img{
+        
+    background-image: url(../assets/girl.png);
+    background-size: contain;
+    background-size: 65vw 55vh;
+    background-repeat: no-repeat
+  
+}
+.img1{
+        
+    background-image: url(../assets/girl1.jpg);
+    background-size: contain;
+    background-size: 65vw 55vh;
+    background-repeat: no-repeat
+  
+}
+.img2{
+        
+    background-image: url(../assets/girl3.jpg);
+    background-size: contain;
+    background-size: 65vw 55vh;
+    background-repeat: no-repeat
+  
+}
+.img3{
+        
+    background-image: url(../assets/girl4.jpg);
+    background-size: contain;
+    background-size: 65vw 55vh;
+    background-repeat: no-repeat
+  
+}
+.img4{
+        
+    background-image: url(../assets/girl5.jpg);
+    background-size: contain;
+    background-size: 65vw 55vh;
+    background-repeat: no-repeat
+  
+}
+
 @media (min-width: 1024px) {
     .bg{
 
         background-image: url(../assets/backgroundImage_01.jpg);
         
         background-size: contain;
-        background-size: 100% 110%; 
+        background-size: 100% 125%; 
         
         background-repeat: no-repeat;
     }
@@ -98,6 +139,96 @@ body {
           
         
     }
+    .img{
+        
+            background-image: url(../assets/girl.png);
+            background-size: contain;
+        overflow: hidden;
+        background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+   
+      
+      /* .imgop:hover {
+        opacity: 1; 
+      } */
+      
+      .imgop:hover ~ .img {
+        transform: scale(1.1); /* Scale up the image on hover */
+      }
+    
+      .imgop:hover ~ .img1 {
+        transform: scale(1.1); /* Scale up the image on hover */
+      }
+    
+    .img1{
+        
+            background-image: url(../assets/girl1.jpg);
+            background-size: contain;
+            background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+    .img2{
+        
+            background-image: url(../assets/girl3.jpg);
+            background-size: contain;
+            background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+    .img3{
+        
+            background-image: url(../assets/girl4.jpg);
+            background-size: contain;
+            background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+    .img4{
+        
+            background-image: url(../assets/girl5.jpg);
+            background-size: contain;
+            background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+    .img{
+        
+            background-image: url(../assets/girl.png);
+            background-size: contain;
+            background-size: 100% 55vh;
+            background-repeat: no-repeat
+          
+    }
+    /* WebKit */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scrollbar handle */
+  }
+  
+  /* Firefox */
+  /* Only works in Firefox */
+  /* For other browsers, use a library like SimpleBar (https://github.com/Grsmto/simplebar) */
+  /* or customize the scrollbar appearance using JavaScript */
+  /* Check browser compatibility for scrollbar-width: https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width#browser_compatibility */
+  * {
+    scrollbar-width: thin; /* "auto" or "thin" */
+  }
+  
+  /* Firefox scrollbar track */
+  * {
+    scrollbar-color: #888 #f1f1f1; /* scrollbar-color: scrollbar-handle-color scrollbar-track-color */
+  }
+  
 
   
   }
