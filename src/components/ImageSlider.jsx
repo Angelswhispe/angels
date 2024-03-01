@@ -7,16 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "./LandingRes.css";
-// import { FreeMode, Pagination } from "swiper/modules";
-
-// import { RxArrowTopRight } from "react-icons/rx";
-// import { ServiceData } from "../constants";
-// import SpaceCity1 from "../assets/girl.png";
-// import SpaceCity5 from "../assets/girl1.jpg";
-// import SpaceCity6 from "../assets/girl3.jpg";
-// import SpaceCity7 from "../assets/girl4.jpg";
-// import SpaceCity8 from "../assets/girl5.jpg";
-// import SpaceCity9 from "../assets/girl5.jpg";
 
 import {
   faChevronRight,
@@ -110,47 +100,47 @@ const ActiveSlider = () => {
         
                  className="flex gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className={` lg:h-full  relative img w-60 lg:w-80 `} />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img1 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img2 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img3 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img4 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img1 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img2 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img3 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img4 lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
                 <div className="flex ml-6  gap-6 mb-[-28%]  relative py-10 h-[100vh] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
                   <div className="relative w-60 img lg:w-80" />
-                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[24%] inset-0 bg-black hover:opacity-10 opacity-50" />
+                  <div className="absolute imgop w-60  h-[56%] lg:w-80 lg:h-[77%] mt-7 lg:mt-[28%] inset-0 bg-black hover:opacity-10 opacity-50" />
                 </div>
               </SwiperSlide>
               {/* ))} */}
