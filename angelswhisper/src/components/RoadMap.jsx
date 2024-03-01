@@ -6,8 +6,8 @@ import './Roadmap.css';
 function RoadMap() {
   return (
     <>
-      <div className="-mt-[140%] lg:-mt-[33%] text-xs ml-6 text-white  relative top-0">
-        <h2 className="text-2xl lg:text-5xl lg:text-center font-bold text-orange-300">
+      <div className="-mt-[140%] Aps lg:-mt-[33%] text-xs ml-6 text-white  relative top-0">
+        <h2 className="text-2xl Rmap lg:text-5xl lg:text-center font-bold text-orange-300">
           ROAD MAP
         </h2>
         <div className="flex">

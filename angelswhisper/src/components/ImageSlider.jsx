@@ -105,7 +105,7 @@ const ActiveSlider = () => {
           transition: 'scrollLeft 0.5s ease-in-out', // Add transition effect
         }}
            
-                className="flex w-[100%] lg:pb-10 -mt-1 lg:-mt-9 overflow-y-hidden oscroll">
+                className="flex w-[100%] lg:pb-10 h-[105%] -mt-1 lg:-mt-9 overflow-y-hidden oscroll">
                 <div
         
                  className="flex gap-6 mb-[-28%]  relative py-10 h-[125%] w-[100vw] lg:h-[400px] lg:w-[350px]  cursor-pointer">
