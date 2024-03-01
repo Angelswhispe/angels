@@ -2,14 +2,14 @@
 import Home from "../assets/Home.png";
 import Sidebp from "../assets/sidebp.png";
 import Sidebp1 from "../assets/sidebp1.png";
-
+import './Roadmap.css';
 function RoadMap() {
   return (
     <>
-      <div className="-mt-[140%] lg:-mt-[40%] text-xs ml-6 text-white  relative top-0">
-        <h1 className="text-2xl lg:text-5xl lg:text-center font-bold text-orange-300">
+      <div className="-mt-[140%] lg:-mt-[33%] text-xs ml-6 text-white  relative top-0">
+        <h2 className="text-2xl lg:text-5xl lg:text-center font-bold text-orange-300">
           ROAD MAP
-        </h1>
+        </h2>
         <div className="flex">
           <div className="absolute hidden lg:ml-11 lg:block">
             <img className="relative" src={Sidebp} />

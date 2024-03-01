@@ -8,7 +8,7 @@ body {
   background-image: url(../assets/backgroundImage_01.jpg);
 
   background-size: contain;
-  background-size: 100% 30%;
+  background-size: 100% 31.8%;
 
   background-repeat: no-repeat;
 }
@@ -43,31 +43,41 @@ body {
 .img {
   background-image: url(../assets/girl.png);
   background-size: contain;
-  background-size: 65vw 55vh;
+  background-size: 65vw 55%;
+  position: relative;
+  top: 37px;
   background-repeat: no-repeat;
 }
 .img1 {
   background-image: url(../assets/girl1.jpg);
   background-size: contain;
-  background-size: 65vw 55vh;
+  background-size: 65vw 55%;
+  position: relative;
+  top: 37px;
   background-repeat: no-repeat;
 }
 .img2 {
   background-image: url(../assets/girl3.jpg);
   background-size: contain;
-  background-size: 65vw 55vh;
+  background-size: 65vw 55%;
+  position: relative;
+  top: 37px;
   background-repeat: no-repeat;
 }
 .img3 {
   background-image: url(../assets/girl4.jpg);
   background-size: contain;
-  background-size: 65vw 55vh;
+   background-size: 65vw 55%;
+  position: relative;
+  top: 37px;
   background-repeat: no-repeat;
 }
 .img4 {
   background-image: url(../assets/girl5.jpg);
   background-size: contain;
-  background-size: 65vw 55vh;
+   background-size: 65vw 55%;
+  position: relative;
+  top: 37px;
   background-repeat: no-repeat;
 }
 
@@ -185,4 +195,14 @@ body {
   * {
     scrollbar-color: #888 #f1f1f1; /* scrollbar-color: scrollbar-handle-color scrollbar-track-color */
   }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.oscroll {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.oscroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 }

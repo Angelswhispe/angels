@@ -4,17 +4,17 @@ import NavBar from "./NavBar";
 import HeroText from "./HeroText";
 import About from "./About";
 import TalkToYourAngel from "./TalkToYourAngel";
-// import backgroundImg from "./BackgroundImg";
-// import backgroundImage1 from "../assets/backgroundImage_01.jpg";
-// import backgroundImage2 from "../assets/backgroundImage_02.jpg";
-// import BgImgBottom from "../assets/bgImg.jpg";
-// import ImageSlider from "./ImageSlider";
+import backgroundImg from "./BackgroundImg";
+import backgroundImage1 from "../assets/backgroundImage_01.jpg";
+import backgroundImage2 from "../assets/backgroundImage_02.jpg";
+import BgImgBottom from "../assets/bgImg.jpg";
+import ImageSlider from "./ImageSlider";
 import ActiveSlider from "./ImageSlider";
 import RoadMap from "./RoadMap";
 import videoFile from "../assets/introaw.mp4";
 import "./LandingRes.css";
 
-// import StartTalk from "./StartTalk";
+import StartTalk from "./StartTalk";
 
 function LandingPage() {
   return (
@@ -31,7 +31,7 @@ function LandingPage() {
           </div>
         </div>
 
-        <div className="  bg2 h-[48pc] lg:h-[181.5vh] lg:mt-0 -mt-[144%]">
+        <div className="  bg2 h-[48pc] lg:h-[181.5vh] lg:-mt-12 -mt-[144%]">
           <About />
           <video controls className="mt-24 p-0 lg:ml-[23.5%] lg:w-[55%] ">
             <source src={videoFile} type="video/mp4" />
@@ -44,7 +44,7 @@ function LandingPage() {
             <div className="h-2 z-30 relative bg-yellow-300"></div>
           </div>
           <div
-            className=" bg3 lg:h-[110pc] h-[85pc] lg:mt-[0%] mt-[0%]"
+            className=" bg3 lg:h-[117pc] h-[85pc] lg:mt-[0%] mt-[0%]"
             // className="h-screen relative -mt-[61.6%] bg-gradient-to-r from-blue-500 to-green-500"
           >
             <ActiveSlider />
