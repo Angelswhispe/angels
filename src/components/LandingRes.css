@@ -43,7 +43,7 @@ body {
 .img {
   background-image: url(../assets/girl.png);
   background-size: contain;
-  background-size: 65vw 55%;
+  background-size: 65vw 40%;
   position: relative;
   top: 37px;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
 .img1 {
   background-image: url(../assets/girl1.jpg);
   background-size: contain;
-  background-size: 65vw 55%;
+  background-size: 65vw 40%;
   position: relative;
   top: 37px;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 .img2 {
   background-image: url(../assets/girl3.jpg);
   background-size: contain;
-  background-size: 65vw 55%;
+  background-size: 65vw 40%;
   position: relative;
   top: 37px;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body {
 .img3 {
   background-image: url(../assets/girl4.jpg);
   background-size: contain;
-   background-size: 65vw 55%;
+   background-size: 65vw 40%;
   position: relative;
   top: 37px;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
 .img4 {
   background-image: url(../assets/girl5.jpg);
   background-size: contain;
-   background-size: 65vw 55%;
+   background-size: 65vw 40%;
   position: relative;
   top: 37px;
   background-repeat: no-repeat;

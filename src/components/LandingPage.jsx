@@ -43,11 +43,11 @@ function LandingPage() {
           <div>
             <div className="h-2 z-30 relative bg-yellow-300"></div>
           </div>
+            <ActiveSlider />
           <div
-            className=" bg3 lg:h-[117pc] h-[85pc] lg:mt-[0%] mt-[0%]"
+            className=" bg3 lg:h-[132pc] h-[85pc] lg:mt-[-80%] mt-[-57pc] lg:pt-[85%] pt-[245%]"
             // className="h-screen relative -mt-[61.6%] bg-gradient-to-r from-blue-500 to-green-500"
           >
-            <ActiveSlider />
             <RoadMap />
             {/* <br/> */}
             <hr className="mt-14 lg:mt-20 lg:border-0 shadow-lg" />
